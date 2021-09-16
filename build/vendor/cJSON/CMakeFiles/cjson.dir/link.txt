@@ -1,0 +1,2 @@
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emar qc libcjson.a CMakeFiles/cjson.dir/cJSON.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emranlib libcjson.a

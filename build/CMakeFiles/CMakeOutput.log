@@ -1,0 +1,353 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Darwin - 20.2.0 - x86_64
+Performing C SOURCE FILE Test FLAG_SUPPORTED_stdc89 succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c31e2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c31e2.dir/build.make CMakeFiles/cmTC_c31e2.dir/build
+Building C object CMakeFiles/cmTC_c31e2.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_stdc89  -std=c89 -MD -MT CMakeFiles/cmTC_c31e2.dir/src.c.o -MF CMakeFiles/cmTC_c31e2.dir/src.c.o.d -o CMakeFiles/cmTC_c31e2.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c31e2.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c31e2.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_c31e2.dir/objects1.rsp -o cmTC_c31e2.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_pedantic succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_80f16/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_80f16.dir/build.make CMakeFiles/cmTC_80f16.dir/build
+Building C object CMakeFiles/cmTC_80f16.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -MD -MT CMakeFiles/cmTC_80f16.dir/src.c.o -MF CMakeFiles/cmTC_80f16.dir/src.c.o.d -o CMakeFiles/cmTC_80f16.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_80f16.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80f16.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89  @CMakeFiles/cmTC_80f16.dir/objects1.rsp -o cmTC_80f16.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wall succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0426/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a0426.dir/build.make CMakeFiles/cmTC_a0426.dir/build
+Building C object CMakeFiles/cmTC_a0426.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -MD -MT CMakeFiles/cmTC_a0426.dir/src.c.o -MF CMakeFiles/cmTC_a0426.dir/src.c.o.d -o CMakeFiles/cmTC_a0426.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a0426.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0426.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic  @CMakeFiles/cmTC_a0426.dir/objects1.rsp -o cmTC_a0426.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wextra succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_707bb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_707bb.dir/build.make CMakeFiles/cmTC_707bb.dir/build
+Building C object CMakeFiles/cmTC_707bb.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -MD -MT CMakeFiles/cmTC_707bb.dir/src.c.o -MF CMakeFiles/cmTC_707bb.dir/src.c.o.d -o CMakeFiles/cmTC_707bb.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_707bb.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_707bb.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall  @CMakeFiles/cmTC_707bb.dir/objects1.rsp -o cmTC_707bb.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Werror succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d6804/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d6804.dir/build.make CMakeFiles/cmTC_d6804.dir/build
+Building C object CMakeFiles/cmTC_d6804.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -MD -MT CMakeFiles/cmTC_d6804.dir/src.c.o -MF CMakeFiles/cmTC_d6804.dir/src.c.o.d -o CMakeFiles/cmTC_d6804.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6804.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6804.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra  @CMakeFiles/cmTC_d6804.dir/objects1.rsp -o cmTC_d6804.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictprototypes succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_01f9a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_01f9a.dir/build.make CMakeFiles/cmTC_01f9a.dir/build
+Building C object CMakeFiles/cmTC_01f9a.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -MD -MT CMakeFiles/cmTC_01f9a.dir/src.c.o -MF CMakeFiles/cmTC_01f9a.dir/src.c.o.d -o CMakeFiles/cmTC_01f9a.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_01f9a.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f9a.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror  @CMakeFiles/cmTC_01f9a.dir/objects1.rsp -o cmTC_01f9a.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wwritestrings succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_45823/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_45823.dir/build.make CMakeFiles/cmTC_45823.dir/build
+Building C object CMakeFiles/cmTC_45823.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -MD -MT CMakeFiles/cmTC_45823.dir/src.c.o -MF CMakeFiles/cmTC_45823.dir/src.c.o.d -o CMakeFiles/cmTC_45823.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_45823.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45823.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  @CMakeFiles/cmTC_45823.dir/objects1.rsp -o cmTC_45823.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wshadow succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1166a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1166a.dir/build.make CMakeFiles/cmTC_1166a.dir/build
+Building C object CMakeFiles/cmTC_1166a.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -MD -MT CMakeFiles/cmTC_1166a.dir/src.c.o -MF CMakeFiles/cmTC_1166a.dir/src.c.o.d -o CMakeFiles/cmTC_1166a.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1166a.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1166a.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  @CMakeFiles/cmTC_1166a.dir/objects1.rsp -o cmTC_1166a.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Winitself succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_83ad4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_83ad4.dir/build.make CMakeFiles/cmTC_83ad4.dir/build
+Building C object CMakeFiles/cmTC_83ad4.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -MD -MT CMakeFiles/cmTC_83ad4.dir/src.c.o -MF CMakeFiles/cmTC_83ad4.dir/src.c.o.d -o CMakeFiles/cmTC_83ad4.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_83ad4.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83ad4.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  @CMakeFiles/cmTC_83ad4.dir/objects1.rsp -o cmTC_83ad4.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastalign succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6e75d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6e75d.dir/build.make CMakeFiles/cmTC_6e75d.dir/build
+Building C object CMakeFiles/cmTC_6e75d.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -MD -MT CMakeFiles/cmTC_6e75d.dir/src.c.o -MF CMakeFiles/cmTC_6e75d.dir/src.c.o.d -o CMakeFiles/cmTC_6e75d.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6e75d.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e75d.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  @CMakeFiles/cmTC_6e75d.dir/objects1.rsp -o cmTC_6e75d.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformat2 succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33b06/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_33b06.dir/build.make CMakeFiles/cmTC_33b06.dir/build
+Building C object CMakeFiles/cmTC_33b06.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -MD -MT CMakeFiles/cmTC_33b06.dir/src.c.o -MF CMakeFiles/cmTC_33b06.dir/src.c.o.d -o CMakeFiles/cmTC_33b06.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_33b06.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33b06.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  @CMakeFiles/cmTC_33b06.dir/objects1.rsp -o cmTC_33b06.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingprototypes succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a8438/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a8438.dir/build.make CMakeFiles/cmTC_a8438.dir/build
+Building C object CMakeFiles/cmTC_a8438.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -MD -MT CMakeFiles/cmTC_a8438.dir/src.c.o -MF CMakeFiles/cmTC_a8438.dir/src.c.o.d -o CMakeFiles/cmTC_a8438.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a8438.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8438.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  @CMakeFiles/cmTC_a8438.dir/objects1.rsp -o cmTC_a8438.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictoverflow2 succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c712c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c712c.dir/build.make CMakeFiles/cmTC_c712c.dir/build
+Building C object CMakeFiles/cmTC_c712c.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -MD -MT CMakeFiles/cmTC_c712c.dir/src.c.o -MF CMakeFiles/cmTC_c712c.dir/src.c.o.d -o CMakeFiles/cmTC_c712c.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c712c.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c712c.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  @CMakeFiles/cmTC_c712c.dir/objects1.rsp -o cmTC_c712c.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastqual succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b7cb0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b7cb0.dir/build.make CMakeFiles/cmTC_b7cb0.dir/build
+Building C object CMakeFiles/cmTC_b7cb0.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -MD -MT CMakeFiles/cmTC_b7cb0.dir/src.c.o -MF CMakeFiles/cmTC_b7cb0.dir/src.c.o.d -o CMakeFiles/cmTC_b7cb0.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b7cb0.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7cb0.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  @CMakeFiles/cmTC_b7cb0.dir/objects1.rsp -o cmTC_b7cb0.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wundef succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98762/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_98762.dir/build.make CMakeFiles/cmTC_98762.dir/build
+Building C object CMakeFiles/cmTC_98762.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -MD -MT CMakeFiles/cmTC_98762.dir/src.c.o -MF CMakeFiles/cmTC_98762.dir/src.c.o.d -o CMakeFiles/cmTC_98762.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_98762.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98762.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  @CMakeFiles/cmTC_98762.dir/objects1.rsp -o cmTC_98762.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchdefault succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1e61a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1e61a.dir/build.make CMakeFiles/cmTC_1e61a.dir/build
+Building C object CMakeFiles/cmTC_1e61a.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -MD -MT CMakeFiles/cmTC_1e61a.dir/src.c.o -MF CMakeFiles/cmTC_1e61a.dir/src.c.o.d -o CMakeFiles/cmTC_1e61a.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1e61a.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e61a.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  @CMakeFiles/cmTC_1e61a.dir/objects1.rsp -o cmTC_1e61a.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wconversion succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1578/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d1578.dir/build.make CMakeFiles/cmTC_d1578.dir/build
+Building C object CMakeFiles/cmTC_d1578.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -MD -MT CMakeFiles/cmTC_d1578.dir/src.c.o -MF CMakeFiles/cmTC_d1578.dir/src.c.o.d -o CMakeFiles/cmTC_d1578.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d1578.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1578.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  @CMakeFiles/cmTC_d1578.dir/objects1.rsp -o cmTC_d1578.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wccompat succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_900ec/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_900ec.dir/build.make CMakeFiles/cmTC_900ec.dir/build
+Building C object CMakeFiles/cmTC_900ec.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -MD -MT CMakeFiles/cmTC_900ec.dir/src.c.o -MF CMakeFiles/cmTC_900ec.dir/src.c.o.d -o CMakeFiles/cmTC_900ec.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_900ec.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900ec.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  @CMakeFiles/cmTC_900ec.dir/objects1.rsp -o cmTC_900ec.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_fstackprotectorstrong succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f984/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1f984.dir/build.make CMakeFiles/cmTC_1f984.dir/build
+Building C object CMakeFiles/cmTC_1f984.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -MD -MT CMakeFiles/cmTC_1f984.dir/src.c.o -MF CMakeFiles/cmTC_1f984.dir/src.c.o.d -o CMakeFiles/cmTC_1f984.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1f984.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f984.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  @CMakeFiles/cmTC_1f984.dir/objects1.rsp -o cmTC_1f984.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_02486/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02486.dir/build.make CMakeFiles/cmTC_02486.dir/build
+Building C object CMakeFiles/cmTC_02486.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -MD -MT CMakeFiles/cmTC_02486.dir/src.c.o -MF CMakeFiles/cmTC_02486.dir/src.c.o.d -o CMakeFiles/cmTC_02486.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_02486.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02486.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  @CMakeFiles/cmTC_02486.dir/objects1.rsp -o cmTC_02486.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wdoublepromotion succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95854/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_95854.dir/build.make CMakeFiles/cmTC_95854.dir/build
+Building C object CMakeFiles/cmTC_95854.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma    -Wdouble-promotion -MD -MT CMakeFiles/cmTC_95854.dir/src.c.o -MF CMakeFiles/cmTC_95854.dir/src.c.o.d -o CMakeFiles/cmTC_95854.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_95854.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95854.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma  @CMakeFiles/cmTC_95854.dir/objects1.rsp -o cmTC_95854.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wparentheses succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b983/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2b983.dir/build.make CMakeFiles/cmTC_2b983.dir/build
+Building C object CMakeFiles/cmTC_2b983.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion    -Wparentheses -MD -MT CMakeFiles/cmTC_2b983.dir/src.c.o -MF CMakeFiles/cmTC_2b983.dir/src.c.o.d -o CMakeFiles/cmTC_2b983.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2b983.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b983.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion  @CMakeFiles/cmTC_2b983.dir/objects1.rsp -o cmTC_2b983.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wunusedmacros succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2eca8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2eca8.dir/build.make CMakeFiles/cmTC_2eca8.dir/build
+Building C object CMakeFiles/cmTC_2eca8.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses    -Wunused-macros -MD -MT CMakeFiles/cmTC_2eca8.dir/src.c.o -MF CMakeFiles/cmTC_2eca8.dir/src.c.o.d -o CMakeFiles/cmTC_2eca8.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2eca8.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eca8.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses  @CMakeFiles/cmTC_2eca8.dir/objects1.rsp -o cmTC_2eca8.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_71c0c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_71c0c.dir/build.make CMakeFiles/cmTC_71c0c.dir/build
+Building C object CMakeFiles/cmTC_71c0c.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros    -Wmissing-variable-declarations -MD -MT CMakeFiles/cmTC_71c0c.dir/src.c.o -MF CMakeFiles/cmTC_71c0c.dir/src.c.o.d -o CMakeFiles/cmTC_71c0c.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71c0c.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c0c.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros  @CMakeFiles/cmTC_71c0c.dir/objects1.rsp -o cmTC_71c0c.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c77c7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c77c7.dir/build.make CMakeFiles/cmTC_c77c7.dir/build
+Building C object CMakeFiles/cmTC_c77c7.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros -Wmissing-variable-declarations    -Wused-but-marked-unused -MD -MT CMakeFiles/cmTC_c77c7.dir/src.c.o -MF CMakeFiles/cmTC_c77c7.dir/src.c.o.d -o CMakeFiles/cmTC_c77c7.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c77c7.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c77c7.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros -Wmissing-variable-declarations  @CMakeFiles/cmTC_c77c7.dir/objects1.rsp -o cmTC_c77c7.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchenum succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_060ae/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_060ae.dir/build.make CMakeFiles/cmTC_060ae.dir/build
+Building C object CMakeFiles/cmTC_060ae.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused    -Wswitch-enum -MD -MT CMakeFiles/cmTC_060ae.dir/src.c.o -MF CMakeFiles/cmTC_060ae.dir/src.c.o.d -o CMakeFiles/cmTC_060ae.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_060ae.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_060ae.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused  @CMakeFiles/cmTC_060ae.dir/objects1.rsp -o cmTC_060ae.js 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_fvisibilityhidden succeeded with the following output:
+Change Dir: /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb332/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bb332.dir/build.make CMakeFiles/cmTC_bb332.dir/build
+Building C object CMakeFiles/cmTC_bb332.dir/src.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused -Wswitch-enum    -fvisibility=hidden -MD -MT CMakeFiles/cmTC_bb332.dir/src.c.o -MF CMakeFiles/cmTC_bb332.dir/src.c.o.d -o CMakeFiles/cmTC_bb332.dir/src.c.o -c /Users/ylliu/code/tools/wasm/demo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bb332.js
+/usr/local/Cellar/cmake/3.20.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb332.dir/link.txt --verbose=1
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused -Wswitch-enum  @CMakeFiles/cmTC_bb332.dir/objects1.rsp -o cmTC_bb332.js 
+
+
+Source file was:
+int main(void) { return 0; }

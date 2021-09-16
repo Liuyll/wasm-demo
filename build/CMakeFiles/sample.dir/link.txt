@@ -1,0 +1,1 @@
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emcc -fno-stack-protector -U_FORTIFY_SOURCE -s EXIT_RUNTIME=1 -s EXPORTED_FUNCTIONS="['_json_parse', '_malloc']" -s "EXTRA_EXPORTED_RUNTIME_METHODS=['ccall', 'cwrap', 'malloc', '_malloc', 'intArrayFromString']" -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/sample.dir/objects1.rsp -o sample.html @CMakeFiles/sample.dir/linklibs.rsp

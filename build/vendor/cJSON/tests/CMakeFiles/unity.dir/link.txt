@@ -1,0 +1,2 @@
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emar qc libunity.a CMakeFiles/unity.dir/unity/src/unity.c.o
+/Users/ylliu/code/tools/wasm/emsdk/upstream/emscripten/emranlib libunity.a

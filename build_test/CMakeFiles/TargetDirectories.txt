@@ -1,0 +1,3 @@
+/Users/ylliu/code/tools/wasm/demo/build_test/CMakeFiles/rebuild_cache.dir
+/Users/ylliu/code/tools/wasm/demo/build_test/CMakeFiles/edit_cache.dir
+/Users/ylliu/code/tools/wasm/demo/build_test/CMakeFiles/sample.dir
